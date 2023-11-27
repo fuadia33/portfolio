@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-pink-800 block py-6"
+              >cecepfuadiahmad</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-pink-500"
+                    >Beranda</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-pink-500"
+                    >Tentang Saya</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portfolio"
+                    class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-pink-500"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-pink-500"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- section home start -->
+    <section id="home" class="pt-36 mb-20">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold text-teal-900 md:text-xl">
+              Halo Semua 🙌, saya
+              <span
+                class="block font-bold text-slate-800 text-4xl mt-1 lg:text-5xl"
+                >Cecep Fuadi Ahmad</span
+              >
+            </h1>
+            <h2 class="font-medium text-slate-500 text-lg mb-5 lg:text-2xl">
+              I'am a <span class="text-slate-900">Web Programer</span>
+            </h2>
+            <p class="font-medium text-slate-400 mb-10 leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              enim quis magnam obcaecati excepturi reiciendis.
+            </p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-pink-800 py-3 px-8 rounded-full hover:shadow-xl hover:opacity-80 transition duration-200 ease-in-out"
+              >Hubungi Saya</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative lg:mt-0 lg:right-0">
+              <img
+                src="img/foto.png"
+                alt="Cecep Fuadi"
+                width="300"
+                class="max-w-full mx-auto"
+              />
+              <span class="absolute -bottom-10 -z-10 left-1/2 -translate-x-1/2">
+                <svg
+                  height="400"
+                  width="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#9d174d"
+                    d="M35.5,-58.9C43.3,-50.3,44.9,-35.8,51.9,-22.9C59,-10.1,71.5,1,73.7,13.1C75.9,25.3,67.8,38.6,57.2,48C46.6,57.4,33.4,63.1,20,66.2C6.6,69.3,-7.1,69.9,-22.4,68.8C-37.6,67.6,-54.6,64.8,-67,55.4C-79.4,45.9,-87.3,29.8,-85.2,14.9C-83.2,0.1,-71.2,-13.5,-63.5,-28.4C-55.7,-43.3,-52.2,-59.5,-42.3,-67.1C-32.4,-74.7,-16.2,-73.8,-1.2,-72C13.9,-70.2,27.8,-67.5,35.5,-58.9Z"
+                    transform="translate(100 100) scale(1)"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section home end -->
+
+    <!-- section about star -->
+    <section id="about" class="pt-36 pb-32 my-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase text-pink-900 text-lg mb-3">
+              Tentang Saya
+            </h4>
+            <h2
+              class="font-bold text-slate-800 text-3xl mb-5 max-w-md lg:text-4xl"
+            >
+              Build everything with heart
+            </h2>
+            <p class="font-medium text-base text-slate-500 max-w-xl lg:text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
+              odit, animi dolor rem quasi officiis.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-slate-800 text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Mari berteman
+            </h3>
+            <p
+              class="font-medium text-base text-slate-500 max-w-xl mb-6 lg:text-lg"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              vero architecto laudantium ab veritatis quod repellendus
+              distinctio. Blanditiis.
+            </p>
+            <div class="flex items-center">
+              <!-- instagram -->
+              <a
+                href="https://instagram.com/cepfuadi"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-pink-700 hover:bg-pink-700 hover:text-white"
+              >
+                <svg
+                  class="fill-current"
+                  role="img"
+                  width="20"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Instagram</title>
+                  <path
+                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Facebook -->
+              <a
+                href="https://facebook.com/polonton"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-blue-400 hover:bg-blue-600 hover:text-white"
+              >
+                <svg
+                  role="img"
+                  class="fill-current"
+                  width="20"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Facebook</title>
+                  <path
+                    d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                  />
+                </svg>
+              </a>
+
+              <!-- Whatsapp -->
+              <a
+                href="https://wa.me/08995809070"
+                target="_blank"
+                class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-green-600 hover:bg-green-700 hover:text-white"
+              >
+                <svg
+                  role="img"
+                  class="fill-current"
+                  width="20"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>WhatsApp</title>
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section about end -->
+
+    <!-- section portfolio -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-pink-500 uppercase">
+              Portfolio
+            </h4>
+            <h2 class="font-bold text-slate-900 text-3xl mb-4">
+              Project Terbaru
+            </h2>
+            <p class="font-medium text-md text-slate-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              laboriosam molestiae quam, cum saepe vitae unde eaque maiores
+              facere qui!
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+        >
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="https://source.unsplash.com/random/300×300?nature"
+                alt="1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-slate-800 mt-5 mb-3">
+              Project Pertama
+            </h3>
+            <p class="font-medium text-base text-slate-500">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              perferendis laboriosam repellat.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="https://source.unsplash.com/random/300×300?computer"
+                alt="1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-slate-800 mt-5 mb-3">
+              Project Kedua
+            </h3>
+            <p class="font-medium text-base text-slate-500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              similique nisi a asperiores fugit aperiam voluptate veniam
+              consequuntur itaque modi.
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="https://source.unsplash.com/random/300×300?tech"
+                alt="1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-slate-800 mt-5 mb-3">
+              Project Ketiga
+            </h3>
+            <p class="font-medium text-base text-slate-500">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Temporibus cum dolorum doloremque enim distinctio, quo provident?
+            </p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="https://source.unsplash.com/random/300×300?background"
+                alt="1"
+                width="w-full"
+              />
+            </div>
+            <h3 class="font-semibold text-xl text-slate-800 mt-5 mb-3">
+              Project Keempat
+            </h3>
+            <p class="font-medium text-base text-slate-500">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
+              corporis possimus vero aut ad? Iste, eos saepe dicta fugit veniam
+              sed itaque nisi voluptas quasi!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio end -->
+
+    <!-- section contact -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-pink-500 mb-2">Contact Me</h4>
+            <h2
+              class="font-bold text-pink-900 text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Hubungi saya
+            </h2>
+            <p class="font-medium text-slate-500 md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+              reiciendis!
+            </p>
+          </div>
+        </div>
+        <form>
+          <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <label for="nama" class="text-base text-pink-500 font-bold"
+                >Nama</label
+              >
+              <input
+                type="text"
+                id="nama"
+                class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-slate-700 focus:ring-1 focus:border-pink-500"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="email" class="text-base text-pink-500 font-bold"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-slate-700 focus:ring-1 focus:border-pink-500"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <label for="pesan" class="text-base text-pink-500 font-bold"
+                >Pesan</label
+              >
+              <textarea
+                type="email"
+                id="email"
+                class="w-full bg-slate-200 text-slate-900 p-3 rounded-md focus:outline-none focus:ring-slate-700 focus:ring-1 focus:border-pink-500 h-32"
+              ></textarea>
+            </div>
+            <div class="w-full">
+              <button
+                class="w-full text-base font-semibold text-white bg-pink-800 py-3 px-4 rounded-full hover:opacity-80 hover:shadow-lg transition duration-500 ease-in-out"
+              >
+                Kirim
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer -->
+    <footer class="w-full bg-slate-900 pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">Cep Fuadi</h2>
+            <h3 class="font-bold text-2xl mb-2">Hubungi kami</h3>
+            <p>fuadia33@gmail.com</p>
+            <p>Dusun Kawungsari Desa Karangasem Kecamatan Leuwimunding</p>
+            <p>Majalengka</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Kategori</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href=""
+                  class="inline-block text-base hover:text-pink-700 mb-3"
+                  >Programer</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="inline-block text-base hover:text-pink-700 mb-3"
+                  >Teknologi</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="inline-block text-base hover:text-pink-700 mb-3"
+                  >Gaya Hidup</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block text-base hover:text-pink-700 mb-3"
+                  >Beranda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-base hover:text-pink-700 mb-3"
+                  >Tentang Saya</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  class="inline-block text-base hover:text-pink-700 mb-3"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="inline-block text-base hover:text-pink-700 mb-3"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-slate-600">
+          <div class="flex items-center justify-center mb-5">
+            <!-- instagram -->
+            <a
+              href="https://instagram.com/cepfuadi"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-pink-700 hover:bg-pink-700 hover:text-white"
+            >
+              <svg
+                class="fill-current"
+                role="img"
+                width="20"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+
+            <!-- Facebook -->
+            <a
+              href="https://facebook.com/polonton"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-blue-400 hover:bg-blue-600 hover:text-white"
+            >
+              <svg
+                role="img"
+                class="fill-current"
+                width="20"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Facebook</title>
+                <path
+                  d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                />
+              </svg>
+            </a>
+
+            <!-- Whatsapp -->
+            <a
+              href="https://wa.me/08995809070"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-green-600 hover:bg-green-700 hover:text-white"
+            >
+              <svg
+                role="img"
+                class="fill-current"
+                width="20"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>WhatsApp</title>
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-sm text-slate-500 text-center">
+            Dibuat dengan ❤️ oleh Cecep Fuadi Ahmad, Menggunakan tailwind
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
